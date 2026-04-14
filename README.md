@@ -83,7 +83,7 @@ target_link_libraries(my-client PRIVATE ase::imgcache)
 ## Dependencies
 
 - C++20
-- `gtkmm-4.0` (transitively through `ase::gtk` adapter when available,
+- `gtkmm-4.0` (transitively through `ase::adp::gtk` adapter when available,
   otherwise via `pkg_check_modules`)
 - `libcairomm-1.16` (bundled with gtkmm-4)
 - `libgdk-pixbuf-2.0` (bundled with gtkmm-4)

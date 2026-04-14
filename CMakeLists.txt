@@ -56,10 +56,10 @@ message(STATUS "Configuring ${PROJECT_NAME} v${PROJECT_VERSION}")
 # ──────────────────────────────────────────────────────────────────────
 # System dependencies
 # ──────────────────────────────────────────────────────────────────────
-# Cairomm + GdkPixbuf come transitively through ase::gtk (adapter layer).
-# If ase::gtk is not available (e.g. standalone subproject build), fall back
+# Cairomm + GdkPixbuf come transitively through ase::adp::gtk (adapter layer).
+# If ase::adp::gtk is not available (e.g. standalone subproject build), fall back
 # to pkg-config directly against gtkmm-4.0.
-if(NOT TARGET ase::gtk)
+if(NOT TARGET ase::adp::gtk)
     find_package(PkgConfig REQUIRED)
     pkg_check_modules(GTKMM REQUIRED IMPORTED_TARGET gtkmm-4.0)
 endif()
@@ -90,8 +90,8 @@ target_compile_features(ase-imgcache PUBLIC cxx_std_20)
 
 target_link_libraries(ase-imgcache PUBLIC ase::utils)
 
-if(TARGET ase::gtk)
-    target_link_libraries(ase-imgcache PUBLIC ase::gtk)
+if(TARGET ase::adp::gtk)
+    target_link_libraries(ase-imgcache PUBLIC ase::adp::gtk)
 else()
     target_link_libraries(ase-imgcache PUBLIC PkgConfig::GTKMM)
 endif()
