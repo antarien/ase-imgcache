@@ -14,7 +14,7 @@ ASE IMGCACHE BUILD CONFIGURATION
 @layer       Shared (L1, consumed by L5 native clients)
 @created     2026-04-14
 @modified    2026-04-14
-@version     00.00.01.00001 [stub]
+@version     00.00.01.00001 [seed]
 
 CMAKE MODULE COMPLIANCE
 

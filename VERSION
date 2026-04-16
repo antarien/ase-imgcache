@@ -14,7 +14,7 @@
 #   ASE_{ABBR}_NAME=Full Name
 #   ASE_{ABBR}_DESC=Short description
 #   ASE_{ABBR}_LAYER=0-5
-#   ASE_{ABBR}_STATUS=stub|poc|init|core|feat|refine|alpha|beta|stable
+#   ASE_{ABBR}_STATUS=seed|poc|init|core|feat|refine|alpha|beta|stable
 #   ASE_{ABBR}_CREATED=YYYY-MM-DD
 #   ASE_{ABBR}_UPDATED=YYYY-MM-DD
 #
@@ -27,7 +27,7 @@
 #   5 = Servers & Clients (executables)
 #
 # STATUS (auto-calculated from commits, max=refine):
-#   stub   = <5 commits, placeholder only
+#   seed   = <5 commits, first code landed
 #   poc    = 5-15 commits, proof of concept
 #   init   = 15-30 commits, initial development
 #   core   = 30-60 commits, core functionality
@@ -39,11 +39,10 @@
 #   stable = Production ready (set manually)
 #
 # ==============================================================================
-
-ASE_IMGCACHE=00.00.01.00001
-ASE_IMGCACHE_NAME=Image Cache
-ASE_IMGCACHE_DESC=LRU image cache for Cairo/Pixbuf rendering in native clients
-ASE_IMGCACHE_LAYER=1
-ASE_IMGCACHE_STATUS=stub
+ASE_IMGCACHE=00.00.02.00002
+ASE_IMGCACHE_NAME=ASE Imgcache
+ASE_IMGCACHE_DESC=
+ASE_IMGCACHE_LAYER=5
+ASE_IMGCACHE_STATUS=seed
 ASE_IMGCACHE_CREATED=2026-04-14
 ASE_IMGCACHE_UPDATED=2026-04-14
