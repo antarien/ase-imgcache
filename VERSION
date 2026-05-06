@@ -39,10 +39,10 @@
 #   stable = Production ready (set manually)
 #
 # ==============================================================================
-ASE_IMGCACHE=00.00.02.00002
+ASE_IMGCACHE=00.00.03.00003
 ASE_IMGCACHE_NAME=ASE Imgcache
 ASE_IMGCACHE_DESC=
 ASE_IMGCACHE_LAYER=5
 ASE_IMGCACHE_STATUS=seed
 ASE_IMGCACHE_CREATED=2026-04-14
-ASE_IMGCACHE_UPDATED=2026-04-14
+ASE_IMGCACHE_UPDATED=2026-04-16
