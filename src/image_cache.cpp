@@ -20,6 +20,10 @@
  *
  * String handling goes through ase::utils::strops helpers — C string
  * functions (strcpy/strlen/memcpy) are forbidden by the ASE validator.
+ *
+ * Copyright (c) Jan Ohlmann. All rights reserved.
+ * Licensed to ANTARES SIMULACAO LTDA. Use is governed by LICENSE.md and PJV.md in this repository.
+ * SPDX-License-Identifier: LicenseRef-ASE-LIC
  */
 
 #include <ase/imgcache/image_cache.hpp>

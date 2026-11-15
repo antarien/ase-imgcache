@@ -16,6 +16,10 @@ ASE IMGCACHE BUILD CONFIGURATION
 @modified    2026-07-29
 @version     00.00.03.00003 [seed]
 
+Copyright (c) Jan Ohlmann. All rights reserved.
+Licensed to ANTARES SIMULACAO LTDA. Use is governed by LICENSE.md and PJV.md in this repository.
+SPDX-License-Identifier: LicenseRef-ASE-LIC
+
 CMAKE MODULE COMPLIANCE
 
 [x] cmake_minimum_required(VERSION 3.22) as FIRST line
